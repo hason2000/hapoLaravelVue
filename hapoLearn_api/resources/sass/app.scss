@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Slick-Carousel
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+//Font-awesome5
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/icons";
+@import "~@fortawesome/fontawesome-free/scss/animated";
+@import "~@fortawesome/fontawesome-free/scss/core";
+@import "~@fortawesome/fontawesome-free/scss/list";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+//Select2
+@import "~select2/dist/css/select2.css";
+
+@import "./global.scss";
+@import "./header.scss";
+@import "./banner.scss";
+@import "./courses.scss";
+@import "./whyhapo.scss";
+@import "./feedback.scss";
+@import "./slogan.scss";
+@import "./statistic.scss";
+@import "./footer.scss";
+@import "./messengericon.scss";
+@import "./loginregisterform.scss";
+@import "./page/listcourse.scss";
+@import "./page/coursedetail";
+@import "./page/lessondetail.scss";
+@import "./page/userpofile.scss";
+@import "./page/resetpassword.scss";
+@import "./page/formreset.scss";
+@import "./page/liveTeachingIndex.scss";
+@import "./page/liveTeachingDetail.scss";

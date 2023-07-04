@@ -1,0 +1,407 @@
+header {
+  background-color: white;
+
+  .header-navbar {
+    padding: 25px 147px 25px 147px;
+    box-shadow: 0px 0px 6px 0px #00000040;
+    .header-tonggle {
+      border: 0;
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .header-iconx {
+    font-size: 2rem;
+    border: 0;
+  }
+}
+
+.avata-cus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avata {
+  background-color: white;
+  outline: 0;
+
+  span {
+    padding-left: 5px;
+  }
+}
+
+.header-ul {
+  margin-left: auto;
+
+  .header-nav-item {
+    border-radius: 17px;
+    padding: 1px 12px;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+
+    &.header-active,
+    &:hover {
+      background-color: $color-green-0;
+
+      a {
+        color: white !important;
+      }
+    }
+
+    a {
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 500;
+      color: $color-black-0!important;
+    }
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 341px;
+    }
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 1690px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 280px;
+    }
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 220px;
+    }
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+  header .header-navbar {
+    padding: 25px 49px 25px 49px;
+  }
+
+  .header-navbar-brand {
+    text-align: center;
+
+    .navbar-brand {
+      width: 215px;
+    }
+  }
+
+  .header-ul {
+    .header-nav-item {
+      padding: 0 10px;
+    }
+  }
+
+  .navbar {
+    &.header-navbar {
+      display: block;
+
+      .header-navbar-brand {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .navbar-expand-sm {
+    .navbar-collapse {
+      &.header-content {
+        display: block !important;
+      }
+    }
+  }
+
+  .header-content {
+    .header-ul {
+      justify-content: space-between;
+    }
+  }
+
+  .icon-user {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  header .header-navbar {
+    padding: 25px 49px 25px 49px;
+  }
+
+  .navbar {
+    &.header-navbar {
+      display: block;
+
+      .header-navbar-brand {
+        text-align: center;
+      }
+    }
+  }
+
+  .navbar-expand-sm {
+    .navbar-collapse {
+      &.header-content {
+        display: block !important;
+      }
+    }
+  }
+
+  .header-content {
+    .header-ul {
+      justify-content: space-between;
+    }
+  }
+
+  .header-ul {
+    .header-nav-item {
+      padding: 0 10px;
+    }
+  }
+
+  .icon-user {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+  header .header-navbar {
+    padding: 25px 49px 25px 49px;
+  }
+
+  .header-navbar {
+    display: block;
+
+    .header-navbar-brand {
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  .navbar-expand-sm {
+    .navbar-collapse {
+      &.header-content {
+        display: block !important;
+      }
+    }
+  }
+
+  .header-content {
+    .header-ul {
+      justify-content: space-between;
+    }
+  }
+
+  .header-ul {
+    .header-nav-item {
+      padding: 0 10px;
+    }
+  }
+
+  .icon-user {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 668px) {
+  header .header-navbar {
+    padding: 25px 49px 25px 49px;
+  }
+
+  .header-ul {
+    .header-nav-item {
+      padding: 0 10px;
+
+      a{
+        font-size: 11.2px;
+      }
+    }
+  }
+
+  .header-navbar {
+    display: block;
+
+    .header-navbar-brand {
+      padding-bottom: 10px;
+      text-align: center;
+
+      .navbar-brand {
+        width: 210px;
+      }
+    }
+  }
+
+  .navbar-expand-sm {
+    .navbar-collapse {
+      &.header-content {
+        display: block !important;
+      }
+    }
+  }
+
+  .header-content {
+    .header-ul {
+      justify-content: space-between;
+    }
+  }
+
+  .icon-user {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-toggler-icon {
+    margin-top: 8px;
+  }
+
+  .header-tonggle {
+    top: 26px;
+  }
+
+  header {
+    .header-navbar {
+      margin: 0;
+
+      .navbar-toggler {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .header-ul {
+    height: 100vh;
+
+    .header-nav-item {
+      padding: 25px 0;
+
+      &.header-active,
+      &:hover {
+        background-color: transparent;
+
+        a {
+          color: $color-green-0 !important;
+        }
+      }
+
+      .nav-link {
+        text-align: center;
+      }
+    }
+  }
+
+  .header-tonggle {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+  }
+
+  .navbar {
+    &.header-navbar {
+      .header-navbar-brand {
+        width: 35%;
+        margin: 0 auto;
+        padding-bottom: 21px;
+      }
+    }
+  }
+
+  .header-ul {
+    .header-nav-item {
+      border-radius: 5px;
+    }
+  }
+
+  .navbar {
+    &.header-navbar {
+      display: block;
+
+      .header-navbar-brand {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0px;
+        text-align: center;
+      }
+    }
+  }
+
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 15rem;
+    }
+  }
+
+  .icon-user {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 15rem;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 14rem;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header .header-navbar {
+    padding: 31px 0 25px 0;
+  }
+
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 11.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .header-navbar-brand {
+    .navbar-brand {
+      width: 11rem;
+    }
+  }
+}

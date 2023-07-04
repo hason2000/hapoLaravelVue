@@ -1,0 +1,63 @@
+.starting-live-button {
+  padding: 25px 147px 25px 147px;
+  button {
+    line-height: calc(22.07 / 18);
+    letter-spacing: -0.05rem;
+    word-spacing: 0.1rem;
+    padding: 8px 30px;
+    background-color: #B2D235;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    a {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.live-teaching {
+  min-height: 541px;
+  padding-top: 25px;
+}
+
+.live-teaching-item {
+  width: 350px;
+  min-height: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.teaching-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+}
+
+.teaching-item-button {
+  padding: 8px 30px;
+  background-color: #B2D235;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    line-height: calc(22.07 / 18);
+    letter-spacing: -0.05rem;
+    word-spacing: 0.1rem;
+    text-decoration: none;
+  }
+}

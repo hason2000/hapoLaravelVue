@@ -1,0 +1,483 @@
+.whyhapo-lg,
+.whyhapo-md {
+  margin-top: 80px;
+  font-family: $fontNu;
+  background: url("../asset/image/bgwhylearnhapolearn.png")
+        center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 775px;
+}
+
+.whyhapo-md {
+  display: none;
+}
+
+.whyhapo-topimg {
+  display: inline-block;
+  margin-top: -260px;
+  width: 479px;
+  height: 600px;
+}
+
+.whyhapo-left {
+  color: white;
+  margin-left: 11rem;
+
+  .whyhapo-title {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: calc(85.83 / 70);
+    letter-spacing: -2%;
+    margin-bottom: 20px;
+  }
+
+  span {
+    display: flex;
+    font-size: 20px;
+    padding-left: 41px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    i {
+      font-size: 1.9rem;
+      padding-right: 12px;
+      opacity: 1;
+    }
+  }
+}
+
+.whyhapo-right {
+  margin-top: -16rem;
+  width: 792px;
+  height: 544px;
+  margin-left: 125px;
+}
+
+@media screen and (max-width: 1839px) {
+  .whyhapo-left {
+    span {
+      font-size: 20px;
+      padding-left: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1638px) {
+  .whyhapo-right {
+    margin-top: -15rem;
+    width: 760px;
+    margin-left: 100px;
+  }
+
+  .whyhapo-left {
+    span {
+      font-size: 16px;
+      padding-left: 30px;
+    }
+  }
+
+  .whyhapo-left .whyhapo-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 1564px) {
+  .whyhapo-topimg {
+    width: 470px;
+  }
+
+  .whyhapo-right {
+    width: 45vw;
+    margin-top: -12rem;
+  }
+}
+
+@media screen and (max-width: 1464px) {
+  .whyhapo-left {
+    .whyhapo-title {
+      font-size: 60px;
+    }
+
+    span {
+      padding-left: 25px;
+    }
+  }
+
+  .whyhapo-right {
+    width: 40vw;
+    margin-top: -8rem;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .whyhapo-lg {
+    height: 720px;
+  }
+
+  .whyhapo-topimg {
+    width: 440px;
+    height: 580px;
+  }
+
+  .whyhapo-right {
+    margin-top: -10rem;
+    width: 43rem;
+    margin-left: 70px;
+  }
+
+  .whyhapo-left span {
+    font-size: 14px;
+  }
+
+  .whyhapo-left .whyhapo-title {
+    font-size: 53px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .whyhapo-lg {
+    height: 630px;
+  }
+
+  .whyhapo-topimg {
+    width: 410px;
+    height: 535px;
+  }
+
+  .whyhapo-left {
+    margin-left: 6rem;
+
+    .whyhapo-title {
+      font-size: 47px;
+    }
+
+    span {
+      font-size: 13px;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .whyhapo-right {
+    margin-top: -9rem;
+    width: 42rem;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .whyhapo-left {
+    margin-left: 5rem;
+  }
+
+  .whyhapo-right {
+    margin-top: -8rem;
+    width: 38rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .whyhapo-topimg {
+    width: 340px;
+    height: 445px;
+    margin-top: -220px;
+  }
+
+  .whyhapo-lg {
+    display: none;
+  }
+
+  .whyhapo-md {
+    display: block;
+    height: 555px;
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      color: white;
+      font-size: 60px;
+      font-weight: bold;
+      line-height: 100%;
+      margin-top: 3.8rem;
+    }
+  }
+
+  .whyhapomd-text {
+    color: white;
+    margin-left: 35px;
+
+    span {
+      display: flex;
+      font-size: 16px;
+      padding-left: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+
+      i {
+        font-size: 20px;
+        padding-right: 12px;
+        opacity: 1;
+      }
+    }
+  }
+
+  .whyhapomd-right {
+    margin-top: -5rem;
+    width: 35rem;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .whyhapomd-right {
+    margin-left: 3.8rem;
+    margin-top: -5rem;
+    width: 32rem;
+  }
+
+  .whyhapomd-text {
+    span {
+      font-size: 1.08rem;
+
+      i {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .whyhapomd-text {
+    span {
+      font-size: 0.91rem;
+
+      i {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .whyhapomd-right {
+    margin-left: 2.2rem;
+    width: 31rem;
+    margin-top: -4.8rem;
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      font-size: 4rem;
+      margin-left: -30px;
+    }
+  }
+}
+
+@media screen and (max-width: 883px) {
+  .whyhapo-topimg {
+    width: 344px;
+    height: 450px;
+    margin-top: -198px;
+  }
+
+  .whyhapomd-right {
+    margin-left: 7vw;
+    width: 25rem;
+    margin-top: -3.6rem;
+  }
+
+  .whyhapomd-text {
+    margin-left: 1.9vw;
+
+    span {
+      font-size: 0.86rem;
+
+      i {
+        font-size: 1.58rem;
+      }
+    }
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      font-size: 3.7rem;
+      margin-left: -40px;
+    }
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .whyhapomd-text {
+    span {
+      font-size: 0.75rem;
+
+      i {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      font-size: 3.1rem;
+      margin-left: -80px;
+    }
+  }
+
+  .whyhapomd-right {
+    margin-left: 6.5vw;
+    width: 20rem;
+    margin-top: -2.6rem;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .whyhapo-topimg {
+    width: 330px;
+    height: 440px;
+    margin-top: -170px;
+  }
+
+  .whyhapomd-text {
+    margin-left: 0px;
+
+    span {
+      font-size: 0.64rem;
+
+      i {
+        font-size: 1.15rem;
+      }
+    }
+  }
+
+  .whyhapomd-right {
+    margin-top: -1.9rem;
+    margin-left: 2.5vw;
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      font-size: 3rem;
+      margin-left: -80px;
+    }
+  }
+
+  .whyhapo-topimg {
+    width: 300px;
+    height: 400px;
+  }
+
+  .whyhapo-md {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 575px) {
+  .whyhapo-md {
+    height: 700px;
+  }
+
+  .whyhapo-topimg {
+    height: 335px;
+    width: 245px;
+  }
+
+  .whyhapomd-text {
+    width: 80%;
+    margin: 0 auto;
+
+    span {
+      font-size: 1.06rem;
+
+      i {
+        font-size: 1.56rem;
+      }
+    }
+  }
+
+  .whyhapo-top {
+    .whyhapomd-title {
+      font-size: 30px;
+      margin-left: -80px;
+    }
+  }
+
+  .whyhapomd-right {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 531px) {
+  .whyhapomd-text {
+    width: 90%;
+    margin: 0 auto;
+
+    span {
+      font-size: 1rem;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .whyhapomd-text {
+    span {
+      font-size: 0.9rem;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .whyhapo-topimg {
+    height: 290px;
+    width: 225px;
+    margin-top: -130px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .whyhapo-md {
+    height: 620px;
+  }
+
+  .whyhapomd-text {
+    width: 90%;
+    margin: auto;
+    span {
+      font-size: 0.8rem;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .whyhapomd-right {
+    width: 23rem;
+    margin: 0 auto;
+  }
+
+  .whyhapo-top .whyhapomd-title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .whyhapomd-text {
+    width: 100%;
+    margin-left: 0;
+    span {
+      font-size: 0.74rem;
+
+      i {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.form-reset {
+  padding: 25px 150px;
+
+  label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(25 / 20);
+    letter-spacing: -0.02em;
+    color: #505353;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 7px 25px;
+    background-color: $color-green-0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    box-shadow: inset 0px 1.5px 2px #6f8710;
+    border-radius: 22px;
+    border: 0;
+    margin-top: 25px;
+
+    &:hover {
+      background-color: $color-green-1;
+    }
+  }
+}
+
+.form-reset-content {
+  background-color: white;
+  padding: 50px 170px;
+}
+
+.form-reset-title {
+  font-size: 30px;
+  line-height: calc(37 / 30);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $color-green-0;
+  margin-bottom: 30px;
+}
+
+.alert-custom {
+  color: red;
+}
